@@ -11,10 +11,10 @@ import org.springframework.stereotype.Service;
 public class CarServiceImpl implements CarService {
 
     @Autowired
-    Wheel wheel;
+    private Wheel wheel;
 
     @Autowired
-    Engine engine;
+    private Engine engine;
 
     @Override
     public Car buildCar() {
