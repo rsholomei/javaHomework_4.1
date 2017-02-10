@@ -14,5 +14,4 @@ public class Main {
         carService.testCar(car);
         carService.detailsAboutCar(car);
     }
-
 }
