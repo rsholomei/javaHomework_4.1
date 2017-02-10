@@ -36,7 +36,7 @@ public class CarServiceImpl implements CarService {
         try {
             System.out.printf("Car consist of: \n"+
                     "Wheels: " + "\n" + car.getWheel()+"\n" +
-                    "Engine: " + "\n" + car.getEngine());
+                    "Engine: " + "\n" + car.getEngine()+"\n");
         }catch (NullPointerException e){
             System.out.println("Car is not built");
         }
