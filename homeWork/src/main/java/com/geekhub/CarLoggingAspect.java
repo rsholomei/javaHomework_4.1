@@ -59,5 +59,4 @@ public class CarLoggingAspect {
         System.out.println("method: " + joinPoint.getSignature().getName());
         System.out.println("return: " + car.toString());
     }
-
 }
